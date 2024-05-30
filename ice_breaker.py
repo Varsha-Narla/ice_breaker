@@ -1,11 +1,13 @@
 from langchain.prompts.prompt import PromptTemplate 
 from langchain_openai import ChatOpenAI
 from scripts.third_parties.linkedin import scrape_linkedin_profile
+from .agents.tools.tools import get_profile_url_tavily
 
+from agents.linkedin_lookup_agent import lookup as linkedin_lookup_agent
 
-if __name__ == "__main__":
-    print("Hello, Langchain!")
-
+def ice_break_with(name: str) ->str:
+    linkedin_username=linkedin_lookup_agent(name=name) #this will be a url
+    linkedin_data=scrape_linkedin_profile(linkedin_profile_url=linkedin_username)
     summary_template = """
     Given the following information about a person:
     {information}
@@ -25,3 +27,9 @@ if __name__ == "__main__":
     )
     res = chain.invoke(input={"information": linkedin_data})
     print(res)
+
+if __name__ == "__main__":
+    load_dotenv()
+    print("Ice breaker enter")
+    ice_break_with(name="Eden Marco")
+    
