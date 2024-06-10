@@ -1,0 +1,342 @@
+[
+    {
+        "label": "TavilySearchResults",
+        "importPath": "langchain_community.tools.tavily_search",
+        "description": "langchain_community.tools.tavily_search",
+        "isExtraImport": true,
+        "detail": "langchain_community.tools.tavily_search",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "ChatOpenAI",
+        "importPath": "langchain_openai",
+        "description": "langchain_openai",
+        "isExtraImport": true,
+        "detail": "langchain_openai",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts.prompt",
+        "description": "langchain.prompts.prompt",
+        "isExtraImport": true,
+        "detail": "langchain.prompts.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts.prompt",
+        "description": "langchain.prompts.prompt",
+        "isExtraImport": true,
+        "detail": "langchain.prompts.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts.prompt",
+        "description": "langchain.prompts.prompt",
+        "isExtraImport": true,
+        "detail": "langchain.prompts.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain.prompts.prompt",
+        "description": "langchain.prompts.prompt",
+        "isExtraImport": true,
+        "detail": "langchain.prompts.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "Tool",
+        "importPath": "langchain_core.tools",
+        "description": "langchain_core.tools",
+        "isExtraImport": true,
+        "detail": "langchain_core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "Tool",
+        "importPath": "langchain_core.tools",
+        "description": "langchain_core.tools",
+        "isExtraImport": true,
+        "detail": "langchain_core.tools",
+        "documentation": {}
+    },
+    {
+        "label": "create_react_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "AgentExecutor",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "create_react_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "AgentExecutor",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "hub",
+        "importPath": "langchain",
+        "description": "langchain",
+        "isExtraImport": true,
+        "detail": "langchain",
+        "documentation": {}
+    },
+    {
+        "label": "hub",
+        "importPath": "langchain",
+        "description": "langchain",
+        "isExtraImport": true,
+        "detail": "langchain",
+        "documentation": {}
+    },
+    {
+        "label": "get_profile_url_tavily",
+        "importPath": "agents.tools.tools",
+        "description": "agents.tools.tools",
+        "isExtraImport": true,
+        "detail": "agents.tools.tools",
+        "documentation": {}
+    },
+    {
+        "label": "get_profile_url_tavily",
+        "importPath": "agents.tools.tools",
+        "description": "agents.tools.tools",
+        "isExtraImport": true,
+        "detail": "agents.tools.tools",
+        "documentation": {}
+    },
+    {
+        "label": "get_profile_url_tavily",
+        "importPath": "agents.tools.tools",
+        "description": "agents.tools.tools",
+        "isExtraImport": true,
+        "detail": "agents.tools.tools",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "tweepy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tweepy",
+        "description": "tweepy",
+        "detail": "tweepy",
+        "documentation": {}
+    },
+    {
+        "label": "tweepy.client",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tweepy.client",
+        "description": "tweepy.client",
+        "detail": "tweepy.client",
+        "documentation": {}
+    },
+    {
+        "label": "lookup",
+        "importPath": "agents.linkedin_lookup_agent",
+        "description": "agents.linkedin_lookup_agent",
+        "isExtraImport": true,
+        "detail": "agents.linkedin_lookup_agent",
+        "documentation": {}
+    },
+    {
+        "label": "lookup",
+        "importPath": "agents.twitter_lookup_agent",
+        "description": "agents.twitter_lookup_agent",
+        "isExtraImport": true,
+        "detail": "agents.twitter_lookup_agent",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_linkedin_profile",
+        "importPath": "scripts.third_parties.linkedin",
+        "description": "scripts.third_parties.linkedin",
+        "isExtraImport": true,
+        "detail": "scripts.third_parties.linkedin",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_user_tweets",
+        "importPath": "scripts.third_parties.twitter",
+        "description": "scripts.third_parties.twitter",
+        "isExtraImport": true,
+        "detail": "scripts.third_parties.twitter",
+        "documentation": {}
+    },
+    {
+        "label": "get_profile_url_tavily",
+        "kind": 2,
+        "importPath": "agents.tools.tools",
+        "description": "agents.tools.tools",
+        "peekOfCode": "def get_profile_url_tavily(name: str):\n    \"\"\"Searches for Linkedin or Twitter Profile Page.\"\"\"\n    search = TavilySearchResults()\n    res = search.run(f\"{name}\")\n    return res[0][\"url\"]",
+        "detail": "agents.tools.tools",
+        "documentation": {}
+    },
+    {
+        "label": "lookup",
+        "kind": 2,
+        "importPath": "agents.linkedin_lookup_agent",
+        "description": "agents.linkedin_lookup_agent",
+        "peekOfCode": "def lookup(name: str) -> str:\n    llm = ChatOpenAI(\n        temperature=0,\n        model_name=\"gpt-3.5-turbo\",\n    )\n    template = \"\"\"given the full name {name_of_person} I want you to get it me a link to their Linkedin profile page.\n                              Your answer should contain only a URL\"\"\"\n    prompt_template = PromptTemplate(\n        template=template, input_variables=[\"name_of_person\"]\n    )",
+        "detail": "agents.linkedin_lookup_agent",
+        "documentation": {}
+    },
+    {
+        "label": "lookup",
+        "kind": 2,
+        "importPath": "agents.twitter_lookup_agent",
+        "description": "agents.twitter_lookup_agent",
+        "peekOfCode": "def lookup(name: str) -> str:\n    llm = ChatOpenAI(\n        temperature=0,\n        model_name=\"gpt-3.5-turbo\",\n    )\n    template = \"\"\"given the full name {name_of_person} I want you to find a link to their twitter profile page and extract from it their username\n    In your final answer, only the person's username\"\"\"\n    prompt_template = PromptTemplate(\n        template=template, input_variables=[\"name_of_person\"]\n    )",
+        "detail": "agents.twitter_lookup_agent",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_linkedin_profile",
+        "kind": 2,
+        "importPath": "scripts.third_parties.linkedin",
+        "description": "scripts.third_parties.linkedin",
+        "peekOfCode": "def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):\n    \"\"\"scrape information from LinkedIn profiles,\n    Manually scrape the information from the LinkedIn profile\"\"\"\n    if mock:\n        linkedin_profile_url = \"https://gist.githubusercontent.com/emarco177/0d6a3f93dd06634d95e46a2782ed7490/raw/78233eb934aa9850b689471a604465b188e761a0/eden-marco.json\"\n        response = requests.get(\n            linkedin_profile_url,\n            timeout=10,\n        )\n    else:",
+        "detail": "scripts.third_parties.linkedin",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_user_tweets",
+        "kind": 2,
+        "importPath": "scripts.third_parties.twitter",
+        "description": "scripts.third_parties.twitter",
+        "peekOfCode": "def scrape_user_tweets(username, num_tweets=5, mock: bool=False):\n    \"\"\" scrapes user's original tweets and returns them as a dictionary\n    \"\"\"\n    tweet_list=[]\n    if mock:\n        EDEN_TWITTER_GIST=\"https://gist.githubusercontent.com/emarco177/0d6a3f93dd06634d95e46a2782ed7490/raw/78233eb934aa9850b689471a604465b188e761a0/eden-marco.json\"\n        tweets=requests.get(EDEN_TWITTER_GIST, timeout=5).json()\n        for tweet in tweets:\n            tweet_dict={}\n            tweet_dict[\"text\"]=tweet[\"text\"]",
+        "detail": "scripts.third_parties.twitter",
+        "documentation": {}
+    },
+    {
+        "label": "ice_break_with",
+        "kind": 2,
+        "importPath": "ice_breaker",
+        "description": "ice_breaker",
+        "peekOfCode": "def ice_break_with(name: str) -> str:\n    linkedin_username = linkedin_lookup_agent(name=name)  # this will be a URL\n    linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_username)\n    twitter_username = twitter_lookup_agent(name=name)\n    tweets = scrape_user_tweets(username=twitter_username)\n    summary_template = \"\"\"\n    Given the following information about a person from LinkedIn and {information} and their latest twitter posts {twitter_posts}: \n    I want you to create :\n    1. A short summary \n    2. Two interesting facts about them ",
+        "detail": "ice_breaker",
+        "documentation": {}
+    },
+    {
+        "label": "print_directory_structure",
+        "kind": 2,
+        "importPath": "print_dir",
+        "description": "print_dir",
+        "peekOfCode": "def print_directory_structure(root_dir, indent=''):\n    for item in os.listdir(root_dir):\n        path = os.path.join(root_dir, item)\n        print(indent + '|-- ' + item)\n        if os.path.isdir(path):\n            print_directory_structure(path, indent + '    ')\nif __name__ == \"__main__\":\n    root_dir = '.'  # You can change this to any directory you want to print\n    print_directory_structure(root_dir)",
+        "detail": "print_dir",
+        "documentation": {}
+    },
+    {
+        "label": "information",
+        "kind": 5,
+        "importPath": "tempCodeRunnerFile",
+        "description": "tempCodeRunnerFile",
+        "peekOfCode": "information = \"\"\"Elon Reeve Musk (/ˈiːlɒn/ EE-lon; born June 28, 1971) is a businessman and investor. He is the founder, chairman, CEO, and CTO of SpaceX; angel investor, CEO, product architect, and former chairman of Tesla, Inc.; owner, executive chairman, and CTO of X Corp.; founder of the Boring Company and xAI; co-founder of Neuralink and OpenAI; and president of the Musk Foundation. He is one of the wealthiest people in the world; as of April 2024, Forbes estimates his net worth to be $196 billion.\nA member of the wealthy South African Musk family, Musk was born in Pretoria and briefly attended the University of Pretoria before immigrating to Canada at age 18, acquiring citizenship through his Canadian-born mother. Two years later, he matriculated at Queen's University at Kingston in Canada. Musk later transferred to the University of Pennsylvania and received bachelor's degrees in economics and physics. He moved to California in 1995 to attend Stanford University, but dropped out after two days and, with his brother Kimbal, co-founded online city guide software company Zip2. The startup was acquired by Compaq for $307 million in 1999. That same year, Musk co-founded X.com, a direct bank. X.com merged with Confinity in 2000 to form PayPal. In October 2002, eBay acquired PayPal for $1.5 billion. Using $100 million of the money he made from the sale of PayPal, Musk founded SpaceX, a spaceflight services company, in 2002.\n\"\"\"\nif __name__ == \"__main__\":\n    print(\"Hello, Langchain!\")\n    summary_template = \"\"\"\n    Given the following information about a person:\n    {information}\n    Create the following:\n    1. A short summary ",
+        "detail": "tempCodeRunnerFile",
+        "documentation": {}
+    }
+]
