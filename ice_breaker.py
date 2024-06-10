@@ -6,13 +6,14 @@ from scripts.third_parties.twitter import scrape_user_tweets
 from langchain.prompts.prompt import PromptTemplate 
 from langchain_openai import ChatOpenAI
 from dotenv import load_dotenv
+from output_parsers import summary_parser
 
 def ice_break_with(name: str) -> str:
     linkedin_username = linkedin_lookup_agent(name=name)  # this will be a URL
-    linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_username)
+    linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_username, mock=True)
 
     twitter_username = twitter_lookup_agent(name=name)
-    tweets = scrape_user_tweets(username=twitter_username)
+    tweets = scrape_user_tweets(username=twitter_username, mock=True)
 
     summary_template = """
     Given the following information about a person from LinkedIn and {information} and their latest twitter posts {twitter_posts}: 
@@ -21,13 +22,16 @@ def ice_break_with(name: str) -> str:
     2. Two interesting facts about them 
 
     Use both information from linkedin and twitter
+    /n{format_instructions}
     """
 
     summary_prompt_template = PromptTemplate(
-        input_variables=["information", "twitter_posts"], template=summary_template
+        input_variables=["information", "twitter_posts"], template=summary_template,
+        partial_variables={"format_instructions":summary_parser.get_format_instructions()},
     )
     llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo")
-    chain = summary_prompt_template | llm
+    #chain = summary_prompt_template | llm
+    chain=summary_prompt_template|llm|summary_parser
 
     res = chain.invoke(input={"information": linkedin_data, "twitter_posts": tweets})
     print(res)

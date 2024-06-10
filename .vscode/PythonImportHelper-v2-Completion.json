@@ -268,6 +268,62 @@
         "documentation": {}
     },
     {
+        "label": "summary_parser",
+        "importPath": "output_parsers",
+        "description": "output_parsers",
+        "isExtraImport": true,
+        "detail": "output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "PydanticOutputParser",
+        "importPath": "langchain.output_parsers",
+        "description": "langchain.output_parsers",
+        "isExtraImport": true,
+        "detail": "langchain.output_parsers",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "langchain_core.pydantic_v1",
+        "description": "langchain_core.pydantic_v1",
+        "isExtraImport": true,
+        "detail": "langchain_core.pydantic_v1",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "langchain_core.pydantic_v1",
+        "description": "langchain_core.pydantic_v1",
+        "isExtraImport": true,
+        "detail": "langchain_core.pydantic_v1",
+        "documentation": {}
+    },
+    {
         "label": "get_profile_url_tavily",
         "kind": 2,
         "importPath": "agents.tools.tools",
@@ -317,8 +373,17 @@
         "kind": 2,
         "importPath": "ice_breaker",
         "description": "ice_breaker",
-        "peekOfCode": "def ice_break_with(name: str) -> str:\n    linkedin_username = linkedin_lookup_agent(name=name)  # this will be a URL\n    linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_username)\n    twitter_username = twitter_lookup_agent(name=name)\n    tweets = scrape_user_tweets(username=twitter_username)\n    summary_template = \"\"\"\n    Given the following information about a person from LinkedIn and {information} and their latest twitter posts {twitter_posts}: \n    I want you to create :\n    1. A short summary \n    2. Two interesting facts about them ",
+        "peekOfCode": "def ice_break_with(name: str) -> str:\n    linkedin_username = linkedin_lookup_agent(name=name)  # this will be a URL\n    linkedin_data = scrape_linkedin_profile(linkedin_profile_url=linkedin_username, mock=True)\n    twitter_username = twitter_lookup_agent(name=name)\n    tweets = scrape_user_tweets(username=twitter_username, mock=True)\n    summary_template = \"\"\"\n    Given the following information about a person from LinkedIn and {information} and their latest twitter posts {twitter_posts}: \n    I want you to create :\n    1. A short summary \n    2. Two interesting facts about them ",
         "detail": "ice_breaker",
+        "documentation": {}
+    },
+    {
+        "label": "Summary",
+        "kind": 6,
+        "importPath": "output_parsers",
+        "description": "output_parsers",
+        "peekOfCode": "class Summary(BaseModel):\n    summary: str=Field(description=\"summary\")\n    facts: List[str]=Field(description=\"interesting facts about them\")\n    def to_dict(self) -> Dict[str, Any]:\n        return {\"summary\": self.summary, \"facts\": self.facts}\nsummary_parser=PydanticOutputParser(pydantic_object=Summary)",
+        "detail": "output_parsers",
         "documentation": {}
     },
     {
